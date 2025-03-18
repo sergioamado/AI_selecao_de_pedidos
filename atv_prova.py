@@ -128,3 +128,4 @@ if __name__ == '__main__':
     # Mantemos lb e ub de modo que a soma dos itens (10) esteja entre eles.
     lb, ub = 5, 12
     solucao, objetivo = solve_warehouse_problem(pedidos, itens, corredores, u_oi, u_ai, lb, ub)
+
